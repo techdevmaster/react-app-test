@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.product-el{
+  color: green;
+  position: relative;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.product-el:last-child {
+  float: right;
+}
+
+.product-el:nth-child(2) {
+  padding-left: 35px;
+}
+
+.items-ct {
+  position: relative;
+  padding: 50px 0;
+}
+
+.grand-total {
+  position: relative;
+  margin: 30px 0;
+  width: 150px;
+  height: 70px;
+  float: right;
+}
+
+.grand-total .card-body{
+  text-align: center;
+}
+
+
